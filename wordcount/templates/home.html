@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>word count ~ !</h1>
+    <h1><a href="{%url 'about'%}"> 만든 이 </a> <br></h1>
+    <h1><a href="{%url 'jebi'%}"> 제비 뽑기 </a> <br>
+        <form action="{%url 'result'%}">
+            <textarea rows="10" cols="40" name="fulltext"> </textarea>
+            <br><br>
+            <input type="submit" value="완료">
+        </form>
+</body>
+
+</html>
